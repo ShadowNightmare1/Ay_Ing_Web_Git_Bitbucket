@@ -7,15 +7,21 @@
 	
 ### Control de Versiones Distribuido (DVC)
 
-	> Similar al VC, con la diferencia de que no es necesario que el usuario esté siempre conectado al servidor, y además de que cada uno mantiene una copia completa del repositorio.
-	[Source](http://www.mclibre.org/consultar/informatica/lecciones/git.html)
+> Similar al VC, con la diferencia de que no es necesario que el usuario esté siempre conectado al servidor, y además de que cada uno mantiene una copia completa del repositorio.
+>[Source](http://www.mclibre.org/consultar/informatica/lecciones/git.html)
 
 ### Repositorio Remoto
 	
-	> Versión de un proyecto/repositorio que se encuentra en línea, al que se puede acceder dependiendo de los permisos del mismo.
-	[Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos)
+> Versión de un proyecto que se encuentra en línea, al que se puede acceder dependiendo de los permisos del mismo.
+>[Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos)
 	
 ### Repositorio Local
 	
-	> Versión del proyecto/repositorio que se encuentra en el computador
-	[Source](https://colaboratorio.net/atareao/developer/2017/git-y-github-trabajando-con-repositorios-locales/)
+> Versión del proyecto que se encuentra en el computador.
+>[Source](https://colaboratorio.net/atareao/developer/2017/git-y-github-trabajando-con-repositorios-locales/)
+
+### Copia de Trabajo / *Working Copy*
+
+> Es en sí una repo, que permite subir los cambios de la misma, a la versión en el servidor. Por otro lado, también es posible actualizar la working copy descargando los cambios que presenta con la versión en línea.
+> [Source](https://www.thomas-krenn.com/en/wiki/Git_Basic_Terms)
+ 
