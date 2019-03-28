@@ -2,26 +2,56 @@
 
 ### Control de Versiones (VC)
 	
-> Herramienta que sirve para mantener un historial de los cambios realizados a un archivo o conjunto de archivos. Y en caso de haber realizado algún cambio que desencadenara alguna falla en los archivos, poder volver a una versión anterior funcional sin mayor problema.
+> Herramienta que sirve para mantener un historial de los cambios realizados a un archivo o conjunto de archivos. Y en caso de haber realizado algï¿½n cambio que desencadenara alguna falla en los archivos, poder volver a una versiï¿½n anterior funcional sin mayor problema.
 >[Source](https://git-scm.com/book/es/v1/Empezando-Acerca-del-control-de-versiones) 
 	
 ### Control de Versiones Distribuido (DVC)
 
-> Similar al VC, con la diferencia de que no es necesario que el usuario esté siempre conectado al servidor, y además de que cada uno mantiene una copia completa del repositorio.
+> Similar al VC, con la diferencia de que no es necesario que el usuario estï¿½ siempre conectado al servidor, y ademï¿½s de que cada uno mantiene una copia completa del repositorio.
 >[Source](http://www.mclibre.org/consultar/informatica/lecciones/git.html)
 
 ### Repositorio Remoto
 	
-> Versión de un proyecto que se encuentra en línea, al que se puede acceder dependiendo de los permisos del mismo.
+> Versiï¿½n de un proyecto que se encuentra en lï¿½nea, al que se puede acceder dependiendo de los permisos del mismo.
 >[Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos)
 	
 ### Repositorio Local
 	
-> Versión del proyecto que se encuentra en el computador.
+> Versiï¿½n del proyecto que se encuentra en el computador.
 >[Source](https://colaboratorio.net/atareao/developer/2017/git-y-github-trabajando-con-repositorios-locales/)
 
 ### Copia de Trabajo / *Working Copy*
 
-> Es en sí una repo, que permite subir los cambios de la misma, a la versión en el servidor. Por otro lado, también es posible actualizar la working copy descargando los cambios que presenta con la versión en línea.
+> Es en sï¿½ una repo, que permite subir los cambios de la misma, a la versiï¿½n en el servidor. Por otro lado, tambiï¿½n es posible actualizar la working copy descargando los cambios que presenta con la versiï¿½n en lï¿½nea.
 > [Source](https://www.thomas-krenn.com/en/wiki/Git_Basic_Terms)
- 
+
+### Ãrea de Trabajo / *Staging Area*
+
+> Un archivo que generalmente estÃ¡ contenido en el directorio git del proyecto. Se encarga de almacenar lo que irÃ¡ en el prÃ³ximo commit (Similar a un Index, pero se estandarizÃ³ llamarlo Staging Area).
+> [Source](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
+
+### Preparar Cambios / *Stage Changes*
+
+> Hace referencia a aÃ±adir sÃ³lo las lÃ­neas que han cambiado a la Staging Area, para poder despuÃ©s subir dichos cambios a la repo remota.
+> [Source](https://softwareengineering.stackexchange.com/questions/119782/what-does-stage-mean-in-git)
+
+### Confirmar Cambios / *Commit Changes*
+> El Ãºltimo paso para confirmar y guardar los cambios hechos a la repo local. Se almacena con un comentario para poder llevar un registro de los cambios hechos, y cuando fue hecho (generalmente el comentario es una breve descripciÃ³n bastante explicativa de los cambios hechos). Cabe seÃ±alar que los cambios son guardados a nivel local.
+> [Source](https://www.git-tower.com/learn/git/commands/git-commit)
+
+### *Commit*
+> Comando que permite realizar lo anterior descrito.
+> [Source](https://www.git-tower.com/learn/git/commands/git-commit)
+
+### *Clone*
+> Consiste en clonar un repositorio existente. En tÃ©rminos mÃ¡s simples, es bajar toda la carpeta del proyecto o parte de ella, ya que es posible solamente bajar la versiÃ³n existente en algÃºn branch especÃ­fico.
+> [Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git)
+
+### *Pull*
+> Consiste en descargar los datos que han cambiado en alguna de las *staging areas* presentes en los colaboradores de la repo.
+> [Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos)
+
+### *Push*
+> Consiste en enviar los datos que han cambiado en la *staging area* local, al servidor donde se ubica la repo.
+> [Source](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos)
+
