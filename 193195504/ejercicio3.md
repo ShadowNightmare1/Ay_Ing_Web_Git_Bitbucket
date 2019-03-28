@@ -4,11 +4,9 @@
 ##### *Total: 2*
 
 ###Tags
-> vGlosario
-> vGlos_Datos
-> vFinal_Parte1
+> v1.0
 > vFinal_Entregable
-##### *Total: 4*
+##### *Total: 2*
 
 ## Últimos 3 commits parte 1
 
